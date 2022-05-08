@@ -3,35 +3,18 @@
 #### 介绍
 基于腾讯云云开发CloudBase的轻博客
 
-#### 软件架构
-软件架构说明
+项目运行环境：CloudBase 云函数
 
+项目后端：CloudBase CMS
 
-#### 安装教程
+项目前端：NodeJs框架Koa
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+项目地址：[https://gitee.com/featwork/featblog](https://gitee.com/featwork/featblog)
 
-#### 使用说明
+安装步骤一：[安装腾讯云CloudBase CMS 内容管理系统](https://featwork.com/blog/112557505f744dce00038f150ab11f1e)
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+安装步骤二：[部署博客项目FeatBlog，创建模型类型和数据库字段](https://featwork.com/blog/112557505f7457a400039b97317bf4c8)
 
-#### 参与贡献
+安装步骤三：[部署博客项目FeatBlog，创建腾讯云云函数运行环境](https://featwork.com/blog/c4747cd45f745f9b0002b2101f371284)
 
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
-
-
-#### 特技
-
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+如安装遇到问题可以联系作者QQ：[1524790154](http://wpa.qq.com/msgrd?v=3&uin=1524790154&site=qq&menu=yes)（请注明来意）
