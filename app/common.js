@@ -1,5 +1,5 @@
 const getPic = function (pic) {
-  var pic = pic.replace('cloud://'+process.env.ENVID+'.', 'https://')
+  var pic = pic.replace('cloud://' + process.env.ENVID + '.', 'https://')
   return pic.replace('/cloudbase-cms/upload/', '.tcb.qcloud.la/cloudbase-cms/upload/')
 }
 const getCon = function (content) {
