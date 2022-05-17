@@ -6,9 +6,9 @@
 
 项目运行环境：CloudBase 云函数
 
-项目后端：CloudBase CMS
+后端管理：CloudBase CMS
 
-项目前端：NodeJs框架Koa
+前端框架：Koajs
 
 项目地址：[https://gitee.com/featwork/featblog](https://gitee.com/featwork/featblog)
 
