@@ -4,6 +4,7 @@
   "dependencies": {
     "@cloudbase/node-sdk": "^2.2.1",
     "ejs": "~2.3.3",
+    "highlight.js": "^10.2.1",
     "koa": "^2.7.0",
     "koa-compress": "^4.0.1",
     "koa-router": "^7.4.0",
