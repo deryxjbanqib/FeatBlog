@@ -1,9 +1,15 @@
+const hljs = require('highlight.js')
+const markdown = require('markdown-it')({
+  highlight: function (str) {
+    return '<pre><code>' + hljs.highlightAuto(str).value + '</code></pre>'
+  }
+})
 const getPic = function (pic) {
   var pic = pic.replace('cloud://' + process.env.ENVID + '.', 'https://')
   return pic.replace('/cloudbase-cms/upload/', '.tcb.qcloud.la/cloudbase-cms/upload/')
 }
 const getCon = function (content) {
-  var content = require('markdown-it')().render(content)
+  var content = markdown.render(content)
   return content.replace(RegExp('<a', 'g'), '<a target="_blank"')
 }
 const getTime = function (time) {
