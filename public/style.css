@@ -51,8 +51,9 @@ body{background:#fff}
 .t-footer span{margin:0 5px}
 #t-page{margin:0 0 60px 0}
 .layui-laypage{float:right}
-.vditor-reset{color:#333!important}
+.vditor-reset{line-height: 1.7;color:#333!important}
 .vditor-reset a{color:#00479b}
+.vditor-reset pre code{padding: 10px!important;background:#f8fafc!important;}
 .t-wp{width:100%;margin:0 auto}
 @media only screen and (max-width:1199px){
 .t-header{padding:20px 0 15px 0}
