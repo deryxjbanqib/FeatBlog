@@ -19,21 +19,27 @@ router.get('/:page?/:id?', async (ctx, next) => {
   t['skip'] = t['limit'] * (t['page'] - 1)
   t['count'] = await db.collection("feat-blog-thread").count()
   if (forum.data.length == 0) {
-    if (!number.test(t['page'])) {
+    if (thread.data.length == 0) {
+      if (!number.test(t['page'])) {
+        t['match'] = { keywords: db.RegExp({ regexp: '.*' + ctx.params.page, options: 'i' }) }
+        t['count'] = await db.collection("feat-blog-thread").where(t['match']).count()
+        t['skip'] = t['limit'] * (common.getNan(ctx.params.id) - 1)
+        t['href'] = ctx.params.page + '/'
+        t['name'] = ctx.params.page
+        t['title'] = ctx.params.page
+      }
+    } else {
       t['skip'] = 0
       t['limit'] = 1
       t['view'] = 'article'
       t['match'] = { _id: t['page'] }
-      if (thread.data.length != 0) {
-        t['title'] = thread.data[0].title
-        t['keywords'] = thread.data[0].keywords
-        t['description'] = thread.data[0].description
-      }
+      t['title'] = thread.data[0].title
+      t['keywords'] = thread.data[0].keywords
+      t['description'] = thread.data[0].description
     }
   } else {
-    typeof ctx.params.id === 'undefined' ? t['page'] = 1 : t['page'] = ctx.params.id
     t['count'] = await db.collection("feat-blog-thread").where({ c_id: forum.data[0]._id }).count()
-    t['skip'] = t['limit'] * (t['page'] - 1)
+    t['skip'] = t['limit'] * (common.getNan(ctx.params.id) - 1)
     t['match'] = { route: ctx.params.page }
     t['href'] = ctx.params.page + '/'
     t['pic'] = forum.data[0].c_pic
