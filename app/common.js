@@ -4,6 +4,18 @@ const markdown = require('markdown-it')({
     return '<pre><code>' + hljs.highlightAuto(str).value + '</code></pre>'
   }
 })
+const getNan = function (id) {
+  if (typeof id === 'undefined') {
+    return 1
+  } else {
+    var id = parseInt(id)
+    if (isNaN(id)) {
+      return 1
+    } else {
+      return id
+    }
+  }
+}
 const getPic = function (pic) {
   var pic = pic.replace('cloud://' + process.env.ENVID + '.', 'https://')
   return pic.replace('/cloudbase-cms/upload/', '.tcb.qcloud.la/cloudbase-cms/upload/')
