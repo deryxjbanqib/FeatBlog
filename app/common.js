@@ -35,6 +35,7 @@ const getTime = function (time) {
   return year + "-" + month + "-" + day + " " + hours + ":" + minutes + ":" + seconds;
 }
 module.exports = {
+  getNan,
   getPic,
   getCon,
   getTime
