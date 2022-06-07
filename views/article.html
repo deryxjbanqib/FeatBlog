@@ -25,6 +25,13 @@
 				</div>
 			</div>
 			<div class="vditor-reset"><%- common.getCon(data[0].content) %></div>
+            <div class="t-tag">
+			<% if(data[0].keywords){%>
+				<% data[0].keywords.forEach(function(item){%>
+				<a href="<%=url %>/<%=item %>"><%=item %></a>
+				<% }) %>
+			<%}%>
+			</div>
 		</div>
   </div>
 </div>
