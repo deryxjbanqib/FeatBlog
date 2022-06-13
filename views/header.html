@@ -13,11 +13,11 @@
 <script src="https://www.layuicdn.com/layui/layui.js"></script>
 </head>
 <body>
-<div class="t-header" <% if(t.banner){%>style="background: url('<%- common.getPic(t.banner) %>') repeat 0 0"<%}%>>
+<div class="t-header" <% if(t.banner){%>style="background: url('<%- common.getPic(t.banner[0]) %>') repeat 0 0"<%}%>>
   <div class="t-wp cl">
       <div class="t-head">
       <a href="<%=url %>/<%=t.href %>">
-      <% if(t.pic){%>
+      <% if(t.logo){%>
       <img src="<%- common.getPic(t.pic) %>">
       <%} else {%>
       <img src="<%=url %>/0.png">
