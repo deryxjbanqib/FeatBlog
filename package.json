@@ -1,6 +1,6 @@
 {
   "name": "featblog",
-  "version": "0.1.1",
+  "version": "0.1.3",
   "dependencies": {
     "@cloudbase/node-sdk": "^2.2.1",
     "ejs": "~2.3.3",
