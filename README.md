@@ -17,7 +17,7 @@ FeatBlog 是基于 CloudBase 云开发的一款免费开源的轻博客主题，
 
 前端框架：Koajs
 
-演示地址：[https://featwork.com/blog](https://featwork.com/blog)
+主题地址：[https://featwork.com/blog](https://featwork.com/blog)
 
 项目地址：[https://gitee.com/featwork/featblog](https://gitee.com/featwork/featblog)
 
@@ -37,7 +37,7 @@ FeatBlog 博客主题采用响应式布局设计，兼容各种主流浏览器�
 
 ### 部署简单：
 
-可以在云开发控制台一键上传安装到云函数环境，配置HTTP访问服务可以提供免费的域名。也可以通过CloudBase CLI工具一体化快速方便的部署。
+可以在云开发控制台一键上传安装到云函数环境，HTTP访问服务可以配置免费的触发域名。也可以通过 CloudBase CLI 工具一体化快速方便的部署。
 
 ### 作者心得：
 
