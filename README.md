@@ -21,7 +21,7 @@ FeatBlog 是基于 CloudBase 云开发的一款免费开源的轻博客主题，
 
 项目地址：[https://gitee.com/featwork/featblog](https://gitee.com/featwork/featblog)
 
-安装教程：[https://featwork.com/1602318397394](https://featwork.com/1602318397394)
+安装教程：[https://featwork.com/s/1602318397394](https://featwork.com/s/1602318397394)
 
 ### 设计简单：
 
