@@ -4,10 +4,9 @@ FeatBlog 是基于 CloudBase 云开发的一款免费开源的轻博客主题，
 
 ### 项目背景
 
-相信很多同学都使用或了解过 WordPress 博客系统 ，它是使用 PHP 语言和 MySQL 数据库开发的，用户搭建  WordPress 站点就要求一个能够运行 PHP环境 和 MySQL数据库的服务器。
+相信很多同学都使用或了解过 WordPress 博客系统，它是使用 PHP 语言和 MySQL 数据库开发的，用户搭建 WordPress 站点就要求一个能够运行 PHP环境 和 MySQL数据库的服务器。
 
-而 FeatBlog 采用 CloudBase 云数据库、云函数等云原生一体化开发环境，用户无需自行搭建服务器即可部署应用，
-极大减轻了繁杂的操作。它天然支持弹性扩缩容，按量计费，灵活管理，也极大节约了成本。
+而 FeatBlog 采用 CloudBase 云数据库、云函数等云原生一体化开发环境，用户无需自行搭建服务器即可部署应用，极大减轻了繁杂的操作。它天然支持弹性扩缩容，按量计费，灵活管理，也极大节约了成本。
 
 ### 配置说明
 
@@ -22,6 +21,8 @@ FeatBlog 是基于 CloudBase 云开发的一款免费开源的轻博客主题，
 项目地址：[https://gitee.com/featwork/featblog](https://gitee.com/featwork/featblog)
 
 安装教程：[https://featwork.com/s/1602318397394](https://featwork.com/s/1602318397394)
+
+[![](https://main.qcloudimg.com/raw/67f5a389f1ac6f3b4d04c7256438e44f.svg)](https://console.cloud.tencent.com/tcb/env/index?action=CreateAndDeployCloudBaseProject&appUrl=https%3A%2F%2Fgitee.com%2Ffeatwork%2Ffeatblog&branch=master)
 
 ### 设计简单：
 
