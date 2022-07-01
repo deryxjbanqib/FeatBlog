@@ -14,13 +14,11 @@ FeatBlog 是基于 CloudBase 云开发的一款免费开源的轻博客主题，
 
 后端管理：CloudBase CMS
 
-前端框架：Koajs
+开发框架：Koajs
 
-主题地址：[https://featwork.com/blog](https://featwork.com/blog)
+开源地址：[https://gitee.com/featwork/featblog](https://gitee.com/featwork/featblog)
 
-项目地址：[https://gitee.com/featwork/featblog](https://gitee.com/featwork/featblog)
-
-安装教程：[https://featwork.com/s/1602318397394](https://featwork.com/s/1602318397394)
+演示地址：[http://demo.featwork.com/blog/](http://demo.featwork.com/blog/)
 
 [![](https://main.qcloudimg.com/raw/67f5a389f1ac6f3b4d04c7256438e44f.svg)](https://console.cloud.tencent.com/tcb/env/index?action=CreateAndDeployCloudBaseProject&appUrl=https%3A%2F%2Fgitee.com%2Ffeatwork%2Ffeatblog&branch=master)
 
