@@ -1,6 +1,5 @@
 FeatBlog 是基于 CloudBase 云开发的一款免费开源的轻博客主题，包含PC端、响应式移动端和小程序（小程序也将近期开源）。支持在云开发控制台一键上传安装到云函数环境中，通过 CloudBase CMS 后端管理，可以快速的管理 Web 网站和小程序等多端产生的内容数据。
 
-![](https://static.featwork.com/featblog/img/4/6.png)
 
 ### 项目背景
 
@@ -15,12 +14,6 @@ FeatBlog 是基于 CloudBase 云开发的一款免费开源的轻博客主题，
 后端管理：CloudBase CMS
 
 开发框架：Koajs
-
-开源地址：[https://gitee.com/featwork/featblog](https://gitee.com/featwork/featblog)
-
-演示地址：[http://demo.featwork.com/blog/](http://demo.featwork.com/blog/)
-
-[![](https://main.qcloudimg.com/raw/67f5a389f1ac6f3b4d04c7256438e44f.svg)](https://console.cloud.tencent.com/tcb/env/index?action=CreateAndDeployCloudBaseProject&appUrl=https%3A%2F%2Fgitee.com%2Ffeatwork%2Ffeatblog&branch=master)
 
 ### 设计简单：
 
@@ -42,4 +35,3 @@ FeatBlog 博客主题采用响应式布局设计，兼容各种主流浏览器�
 
 现在 FeatBlog 还只是初期阶段，后期也会发布各种主题风格，如果有更好的设计模式感谢不吝赐教。总之使用 FeatBlog 无需自行搭建服务器即可部署，你值得拥有。
 
-QQ：1524790154
